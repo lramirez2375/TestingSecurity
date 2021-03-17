@@ -1,0 +1,1322 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="Rows" priority="6" />
+      <Item value="Columns" priority="1" />
+      <Item value="DataSource" priority="2" />
+      <Item value="Dispose" priority="0" />
+      <Item value="DataBind" priority="16" />
+      <Item value="FindControl" priority="3" />
+      <Item value="DataSourceID" priority="0" />
+      <Item value="FooterRow" priority="0" />
+      <Item value="RenderControl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRowCollection">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRow">
+      <Item value="FindControl" priority="12" />
+      <Item value="DataItem" priority="2" />
+      <Item value="Cells" priority="7" />
+      <Item value="RowType" priority="0" />
+      <Item value="DataItemIndex" priority="2" />
+      <Item value="Focus" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="TemplateControl" priority="0" />
+      <Item value="Text" priority="2" />
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@b2pLib">
+      <Item value="Business" priority="6" />
+      <Item value="Domain" priority="21" />
+      <Item value="dao" priority="20" />
+      <Item value="Security" priority="0" />
+      <Item value="dsa.ReportsTableAdapters" priority="1" />
+      <Item value="dsa" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.BidRequestService">
+      <Item value="MoveToPending" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AttributeTargets">
+      <Item value="Class" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.DataTableAttribute">
+      <Item value="TableName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.IDbCommand">
+      <Item value="Parameters" priority="0" />
+      <Item value="Prepare" priority="0" />
+      <Item value="ExecuteNonQuery" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.IDataParameterCollection">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data">
+      <Item value="IDataParameter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Common.DbParameter">
+      <Item value="Value" priority="3" />
+      <Item value="DbType" priority="0" />
+      <Item value="Direction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.DataFieldAttribute">
+      <Item value="Type" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;System.Data.Common.DbParameter&gt;">
+      <Item value="Add" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="Length" priority="0" />
+      <Item value="ToString" priority="8" />
+      <Item value="ToLower" priority="20" />
+      <Item value="Equals" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append" priority="1" />
+      <Item value="Length" priority="1" />
+      <Item value="ToString" priority="0" />
+      <Item value="AppendFormat" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="GetValue" priority="0" />
+      <Item value="PropertyType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="DbType" priority="0" />
+      <Item value="Properties" priority="0" />
+      <Item value="Rows" priority="2" />
+      <Item value="Columns" priority="1" />
+      <Item value="Cc" priority="0" />
+      <Item value="Bcc" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IDictionary">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2bLibUnitTests.VerySimpleDao">
+      <Item value="GetSqlInsert" priority="0" />
+      <Item value="Add" priority="0" />
+      <Item value="CommandForAdd" priority="0" />
+      <Item value="AddRecordCalled" priority="0" />
+      <Item value="BuildCommandCalled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Attributes" priority="0" />
+      <Item value="FullName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.TypeAttributes">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.DataTableAttribute[]">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.BidInfo">
+      <Item value="Award" priority="3" />
+      <Item value="ComponentID" priority="2" />
+      <Item value="CompanyID" priority="5" />
+      <Item value="UserID" priority="0" />
+      <Item value="Supplier" priority="1" />
+      <Item value="JobID" priority="2" />
+      <Item value="PendingEstimate" priority="0" />
+      <Item value="CreateDate" priority="0" />
+      <Item value="UnitID" priority="1" />
+      <Item value="OtherUnit1" priority="2" />
+      <Item value="OtherUnit2" priority="0" />
+      <Item value="OtherUnit3" priority="0" />
+      <Item value="BidReq" priority="0" />
+      <Item value="UnitDesc" priority="1" />
+      <Item value="OtherUnitDesc1" priority="1" />
+      <Item value="Price1" priority="0" />
+      <Item value="OtherCost1" priority="0" />
+      <Item value="OtherQty1" priority="0" />
+      <Item value="BidNumber" priority="0" />
+      <Item value="OtherCharge1" priority="0" />
+      <Item value="Comments" priority="0" />
+      <Item value="SalesRepID" priority="0" />
+      <Item value="NoBid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format" priority="2" />
+      <Item value="IsNullOrEmpty" priority="1" />
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse" priority="5" />
+      <Item value="TryParse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="15" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="Name" priority="15" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.Person">
+      <Item value="ID" priority="8" />
+      <Item value="Company_ID" priority="12" />
+      <Item value="ToString" priority="0" />
+      <Item value="Alpha_Name" priority="0" />
+      <Item value="First_Name" priority="6" />
+      <Item value="Last_Name" priority="3" />
+      <Item value="Address_1" priority="3" />
+      <Item value="Adddress_2" priority="3" />
+      <Item value="City" priority="3" />
+      <Item value="State" priority="3" />
+      <Item value="Zip" priority="4" />
+      <Item value="Country" priority="3" />
+      <Item value="Phone" priority="2" />
+      <Item value="Extension" priority="2" />
+      <Item value="Fax" priority="2" />
+      <Item value="Email_1" priority="2" />
+      <Item value="UserID" priority="5" />
+      <Item value="TAC" priority="0" />
+      <Item value="Approved" priority="0" />
+      <Item value="Inactive" priority="0" />
+      <Item value="Admin" priority="0" />
+      <Item value="UserName" priority="1" />
+      <Item value="Email" priority="1" />
+      <Item value="Password" priority="0" />
+      <Item value="FirstName" priority="0" />
+      <Item value="FullName" priority="0" />
+      <Item value="CompanyId" priority="2" />
+      <Item value="CompanyName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.BidInfoDao">
+      <Item value="Add" priority="1" />
+      <Item value="GetValue" priority="0" />
+      <Item value="getCompanyID" priority="0" />
+      <Item value="FindBid" priority="1" />
+      <Item value="Update" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.IDataReader">
+      <Item value="GetString" priority="1" />
+      <Item value="Close" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:object">
+      <Item value="ToString" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.PersonDao">
+      <Item value="FindPersonByLogin" priority="10" />
+      <Item value="FindPersonByJobBuyer" priority="0" />
+      <Item value="getCompanyName" priority="1" />
+      <Item value="FindPersonByID" priority="1" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.BidRequestDao">
+      <Item value="FindPendingBidRequests" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.ComponentDao">
+      <Item value="FindComponent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.Component">
+      <Item value="Type" priority="1" />
+      <Item value="JobID" priority="5" />
+      <Item value="ComponentID" priority="2" />
+      <Item value="ComponentName" priority="0" />
+      <Item value="BidDueDate" priority="0" />
+      <Item value="Supplier" priority="0" />
+      <Item value="CompanyID" priority="3" />
+      <Item value="DeliveryDate" priority="0" />
+      <Item value="TurnAroundTime" priority="0" />
+      <Item value="Quantity1" priority="1" />
+      <Item value="Quantity2" priority="0" />
+      <Item value="Quantity3" priority="0" />
+      <Item value="Quantity4" priority="0" />
+      <Item value="Award" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary&lt;string,string&gt;">
+      <Item value="Add" priority="34" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:int">
+      <Item value="ToString" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString" priority="3" />
+      <Item value="Year" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.Job_btpDao">
+      <Item value="FindJob" priority="0" />
+      <Item value="getClientName" priority="0" />
+      <Item value="getCompanyName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.Job_btp">
+      <Item value="ClientID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.PrintComponentInfoDao">
+      <Item value="FindPrintComponent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.PrintComponentInfo">
+      <Item value="Union_Printing_Required" priority="0" />
+      <Item value="OtherStockColor" priority="0" />
+      <Item value="OtherSize" priority="0" />
+      <Item value="WeightID" priority="0" />
+      <Item value="ColorID" priority="0" />
+      <Item value="FinishID" priority="0" />
+      <Item value="Coated" priority="0" />
+      <Item value="Recycled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.CutsheetInfoDao">
+      <Item value="FindCutsheetComponent" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.CutsheetInfo">
+      <Item value="Sheets" priority="1" />
+      <Item value="Pages" priority="2" />
+      <Item value="ExtendedProps" priority="1" />
+      <Item value="Union_Printing_Required" priority="0" />
+      <Item value="OtherSize" priority="0" />
+      <Item value="StockWeight" priority="0" />
+      <Item value="StockColor" priority="0" />
+      <Item value="StockFinish" priority="0" />
+      <Item value="Coated" priority="0" />
+      <Item value="Recycled" priority="0" />
+      <Item value="Folds" priority="0" />
+      <Item value="HeadOut" priority="0" />
+      <Item value="OtherFolds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ObjectDataSourceSelectingEventArgs">
+      <Item value="InputParameters" priority="16" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="Request" priority="0" />
+      <Item value="Parent" priority="1" />
+      <Item value="PreviousPage" priority="0" />
+      <Item value="FindControl" priority="3" />
+      <Item value="User" priority="13" />
+      <Item value="Controls" priority="2" />
+      <Item value="Form" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Control">
+      <Item value="FindControl" priority="2" />
+      <Item value="ToString" priority="0" />
+      <Item value="BindingContainer" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.HiddenField">
+      <Item value="Value" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:B2PLib.domain.BidRequestDetail">
+      <Item value="Type" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.BidRequestDetailDao">
+      <Item value="GetOneBidRequestById" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.GeneralBidRequestPropsDao">
+      <Item value="FindBidRequestGeneralProps" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.GeneralBidRequestProps">
+      <Item value="Type" priority="3" />
+      <Item value="Union_Printing_Required" priority="0" />
+      <Item value="OtherSize" priority="2" />
+      <Item value="StockWeight" priority="2" />
+      <Item value="StockColor" priority="1" />
+      <Item value="StockFinish" priority="1" />
+      <Item value="Coated" priority="2" />
+      <Item value="Recycled" priority="1" />
+      <Item value="FrontColors" priority="2" />
+      <Item value="BackColors" priority="1" />
+      <Item value="StockBrand" priority="2" />
+      <Item value="LazerInk" priority="1" />
+      <Item value="PerfInfo" priority="1" />
+      <Item value="BleedInfo" priority="1" />
+      <Item value="DieCutInfo" priority="1" />
+      <Item value="Versions" priority="1" />
+      <Item value="PlateChanges" priority="2" />
+      <Item value="NumProofs" priority="1" />
+      <Item value="ProofType" priority="1" />
+      <Item value="HeavyInkCoverage" priority="1" />
+      <Item value="TightRegistration" priority="1" />
+      <Item value="NumberSamples" priority="1" />
+      <Item value="ArtFormat" priority="1" />
+      <Item value="UnderOver" priority="0" />
+      <Item value="OtherInstructions" priority="0" />
+      <Item value="DeliveryLocation" priority="0" />
+      <Item value="FurtherDelivery" priority="0" />
+      <Item value="BidReqNumber" priority="0" />
+      <Item value="BidReqName" priority="0" />
+      <Item value="BidDueDate" priority="0" />
+      <Item value="Buyer" priority="0" />
+      <Item value="Client" priority="0" />
+      <Item value="DeliveryDate" priority="0" />
+      <Item value="Quantity1" priority="2" />
+      <Item value="Quantity2" priority="0" />
+      <Item value="Quantity3" priority="0" />
+      <Item value="Quantity4" priority="0" />
+      <Item value="Quantity5" priority="0" />
+      <Item value="TurnAroundTime" priority="0" />
+      <Item value="FrontColorsDesc" priority="2" />
+      <Item value="BackColorsDesc" priority="1" />
+      <Item value="Size" priority="0" />
+      <Item value="Specs" priority="0" />
+      <Item value="FormatTypeID" priority="0" />
+      <Item value="JobName" priority="0" />
+      <Item value="ComponentID" priority="0" />
+      <Item value="CompanyID" priority="0" />
+      <Item value="JobID" priority="0" />
+      <Item value="Award" priority="0" />
+      <Item value="BuyerID" priority="0" />
+      <Item value="Versions_Specs_HTML" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.BidRequestDetail">
+      <Item value="ExtendedProps" priority="1" />
+      <Item value="BidReqNumber" priority="0" />
+      <Item value="BidReqName" priority="0" />
+      <Item value="BidDueDate" priority="0" />
+      <Item value="Buyer" priority="1" />
+      <Item value="Client" priority="0" />
+      <Item value="DeliveryDate" priority="0" />
+      <Item value="Quantity1" priority="2" />
+      <Item value="Quantity2" priority="0" />
+      <Item value="Quantity3" priority="0" />
+      <Item value="Quantity4" priority="0" />
+      <Item value="Quantity5" priority="0" />
+      <Item value="TurnaroundTime" priority="0" />
+      <Item value="Type" priority="0" />
+      <Item value="FormatTypeID" priority="4" />
+      <Item value="JobName" priority="0" />
+      <Item value="Componentid" priority="0" />
+      <Item value="CompanyID" priority="0" />
+      <Item value="JobID" priority="0" />
+      <Item value="Award" priority="0" />
+      <Item value="ComponentId" priority="0" />
+      <Item value="CompanyId" priority="0" />
+      <Item value="JobId" priority="0" />
+      <Item value="OtherUnit1" priority="0" />
+      <Item value="OtherQty1" priority="0" />
+      <Item value="OtherCost1" priority="0" />
+      <Item value="UnitID" priority="1" />
+      <Item value="Cost" priority="0" />
+      <Item value="BuyerID" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:bool">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;b2pLib.Domain.ExtendedProperty&gt;">
+      <Item value="Add" priority="37" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.BookletInfo">
+      <Item value="NumberPages" priority="0" />
+      <Item value="PlusCover" priority="0" />
+      <Item value="FrontColorsCover" priority="0" />
+      <Item value="FrontColorsCoverDesc" priority="0" />
+      <Item value="StockColor" priority="0" />
+      <Item value="StockFinish" priority="0" />
+      <Item value="Recycled" priority="1" />
+      <Item value="CoverCoated" priority="1" />
+      <Item value="CoverStockBrand" priority="0" />
+      <Item value="DrillHole" priority="0" />
+      <Item value="BinderyName" priority="0" />
+      <Item value="StockWeight" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.EnvelopeInfo">
+      <Item value="Windows" priority="0" />
+      <Item value="WindowType" priority="1" />
+      <Item value="Window1Size" priority="0" />
+      <Item value="Window1Position" priority="0" />
+      <Item value="Window1Left" priority="0" />
+      <Item value="Window1Bottom" priority="0" />
+      <Item value="Seams" priority="0" />
+      <Item value="PrintMethod" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.LabelInfo">
+      <Item value="AddDeliveryInstruction" priority="0" />
+      <Item value="Adhesive" priority="0" />
+      <Item value="TopCoating" priority="0" />
+      <Item value="Liner" priority="0" />
+      <Item value="Delivered" priority="2" />
+      <Item value="Trim" priority="0" />
+      <Item value="TrimInfo" priority="0" />
+      <Item value="OtherDelivered" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.ContinuousFormInfo">
+      <Item value="OtherCoreRollSize" priority="0" />
+      <Item value="PrintSize" priority="0" />
+      <Item value="NumberUp" priority="0" />
+      <Item value="FormSize" priority="0" />
+      <Item value="Quantity1" priority="2" />
+      <Item value="PinfeedsInfo" priority="0" />
+      <Item value="CoreRollSize" priority="0" />
+      <Item value="FootPull" priority="6" />
+      <Item value="FootPullDirection" priority="0" />
+      <Item value="HeadPull" priority="2" />
+      <Item value="HeadPullDirection" priority="0" />
+      <Item value="RepeatLength" priority="0" />
+      <Item value="BurstingPerfs" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Command" priority="0" />
+      <Item value="PostBackUrl" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtility">
+      <Item value="Transfer" priority="0" />
+      <Item value="TransferRequest" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect" priority="23" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FormView">
+      <Item value="FindControl" priority="54" />
+      <Item value="DefaultMode" priority="4" />
+      <Item value="DataItem" priority="6" />
+      <Item value="DataSource" priority="4" />
+      <Item value="DataBind" priority="1" />
+      <Item value="Visible" priority="1" />
+      <Item value="CurrentMode" priority="1" />
+      <Item value="Row" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="QueryString" priority="22" />
+      <Item value="[]" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="56" />
+      <Item value="ToString" priority="0" />
+      <Item value="Focus" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="48" />
+      <Item value="Focus" priority="1" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.UnitsDao">
+      <Item value="GetAllUnits" priority="0" />
+      <Item value="GetUnitDesc" priority="3" />
+      <Item value="GetUnitID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.SalesRepDao">
+      <Item value="GetSalesRepbyCompany" priority="1" />
+      <Item value="GetSalesRepName" priority="0" />
+      <Item value="Update" priority="0" />
+      <Item value="DeleteRep" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.PersonService">
+      <Item value="FindPersonbyLogin" priority="6" />
+      <Item value="getFormatedPerson" priority="1" />
+      <Item value="FindPersonbyId" priority="1" />
+      <Item value="ValidateDuplicateUserNames" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@b2pLib.Utils">
+      <Item value="CalculatePrice" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="ToString" priority="0" />
+      <Item value="Text" priority="5" />
+      <Item value="SelectedValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:double">
+      <Item value="ToString" priority="21" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.BidDao">
+      <Item value="FindBids" priority="0" />
+      <Item value="FindBidsByStatus" priority="0" />
+      <Item value="FindFilteredBiddingBidsBySupplier" priority="0" />
+      <Item value="FindFilteredExpiredBidsBySupplier" priority="0" />
+      <Item value="FindFilteredAwardedBidsBySupplier" priority="0" />
+      <Item value="FindFilteredNotAwardedBidsBySupplier" priority="0" />
+      <Item value="FindFilteredNoBidBidsBySupplier" priority="0" />
+      <Item value="FindFilteredBuyerCancelledBidsBySupplier" priority="0" />
+      <Item value="GetBidById" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ObjectDataSource">
+      <Item value="SelectParameters" priority="0" />
+      <Item value="Select" priority="0" />
+      <Item value="DataBinding" priority="0" />
+      <Item value="DataBind" priority="5" />
+      <Item value="Insert" priority="2" />
+      <Item value="InsertParameters" priority="3" />
+      <Item value="Inserting" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Parameter">
+      <Item value="ToString" priority="0" />
+      <Item value="DefaultValue" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;b2pLib.Domain.Bid&gt;">
+      <Item value="AddRange" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.ComponentTypesDao">
+      <Item value="FindAllComponentTypes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.CompanyDao">
+      <Item value="FindAllMyBuyerCompanies" priority="0" />
+      <Item value="GetCompanyName" priority="0" />
+      <Item value="FindOneCompany" priority="0" />
+      <Item value="DeactivateCompanyUsers" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FormViewInsertEventArgs">
+      <Item value="Values" priority="17" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Double">
+      <Item value="Parse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.UnitsService">
+      <Item value="FindUnitID" priority="0" />
+      <Item value="FindUnitDesc" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.BidListService">
+      <Item value="FindAllBids" priority="0" />
+      <Item value="GetBidById" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.Bid">
+      <Item value="Status" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.BidRequestDetailService">
+      <Item value="FindBidRequest" priority="0" />
+      <Item value="FindBidRequestByBidId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;b2pLib.Domain.BidRequestDetail&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.SalesRepService">
+      <Item value="FindSalesRepName" priority="0" />
+      <Item value="AddSalesRep" priority="0" />
+      <Item value="DeleteSalesRep" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.CompanyService">
+      <Item value="GetCompanyName" priority="0" />
+      <Item value="getFormatedCompany" priority="0" />
+      <Item value="DeactivateCompanyUsers" priority="0" />
+      <Item value="AddCompany" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.Company">
+      <Item value="Name" priority="0" />
+      <Item value="Address_1" priority="0" />
+      <Item value="Address_2" priority="0" />
+      <Item value="City" priority="0" />
+      <Item value="State" priority="0" />
+      <Item value="Zip" priority="0" />
+      <Item value="Country" priority="0" />
+      <Item value="Phone" priority="0" />
+      <Item value="Fax" priority="0" />
+      <Item value="Email_1" priority="0" />
+      <Item value="ActivationDate" priority="0" />
+      <Item value="Active" priority="0" />
+      <Item value="Admin" priority="0" />
+      <Item value="AnnualPurchases" priority="0" />
+      <Item value="BillingContactAddress1" priority="0" />
+      <Item value="BillingContactAddress2" priority="0" />
+      <Item value="BillingContactCity" priority="0" />
+      <Item value="BillingContactCountry" priority="0" />
+      <Item value="BillingContactEmail" priority="1" />
+      <Item value="BillingContactFax" priority="0" />
+      <Item value="BillingContactFirstName" priority="0" />
+      <Item value="BillingContactLastName" priority="0" />
+      <Item value="BillingContactPhone" priority="0" />
+      <Item value="BillingContactState" priority="0" />
+      <Item value="BillingContactZip" priority="0" />
+      <Item value="UnionDescription" priority="0" />
+      <Item value="UnionWork" priority="0" />
+      <Item value="PSCompanyID" priority="0" />
+      <Item value="TypeOfBusiness" priority="0" />
+      <Item value="Website" priority="0" />
+      <Item value="Supplier" priority="0" />
+      <Item value="Contact" priority="0" />
+      <Item value="CompanyProducts" priority="0" />
+      <Item value="CompanyEmail" priority="0" />
+      <Item value="CompanyFax" priority="0" />
+      <Item value="CompanyExt" priority="0" />
+      <Item value="CompanyPhone" priority="0" />
+      <Item value="CompanyZip" priority="0" />
+      <Item value="CompanyCountry" priority="1" />
+      <Item value="CompanyState" priority="0" />
+      <Item value="CompanyCity" priority="0" />
+      <Item value="CompanyName" priority="0" />
+      <Item value="CompanyID" priority="0" />
+      <Item value="CompanyAddress1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.SupplierFilterDao">
+      <Item value="findSupplierFilterByLogin" priority="0" />
+      <Item value="Update" priority="1" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.SupplierFilterDetail">
+      <Item value="Booklet" priority="1" />
+      <Item value="Envelope" priority="2" />
+      <Item value="Label" priority="1" />
+      <Item value="CutSheet" priority="1" />
+      <Item value="BoxCard" priority="1" />
+      <Item value="DataProcessing" priority="1" />
+      <Item value="DPMSCombo" priority="1" />
+      <Item value="Fanfold" priority="1" />
+      <Item value="FullService" priority="1" />
+      <Item value="MailShop" priority="1" />
+      <Item value="MembershipCard" priority="1" />
+      <Item value="Premium" priority="1" />
+      <Item value="Rapidgram" priority="1" />
+      <Item value="RollToRoll" priority="1" />
+      <Item value="MidAtlantic" priority="1" />
+      <Item value="MidWest" priority="2" />
+      <Item value="Northeast" priority="1" />
+      <Item value="SouthEast" priority="1" />
+      <Item value="UserID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.SupplierFilter">
+      <Item value="Booklet" priority="5" />
+      <Item value="UserID" priority="2" />
+      <Item value="Envelope" priority="4" />
+      <Item value="BoxCard" priority="2" />
+      <Item value="CutSheet" priority="3" />
+      <Item value="DataProcessing" priority="2" />
+      <Item value="DPMSCombo" priority="2" />
+      <Item value="Fanfold" priority="3" />
+      <Item value="FullService" priority="2" />
+      <Item value="Label" priority="3" />
+      <Item value="MailShop" priority="2" />
+      <Item value="MembershipCard" priority="2" />
+      <Item value="Premium" priority="3" />
+      <Item value="Rapidgram" priority="2" />
+      <Item value="RollToRoll" priority="3" />
+      <Item value="MidAtlantic" priority="2" />
+      <Item value="MidWest" priority="2" />
+      <Item value="Northeast" priority="2" />
+      <Item value="SouthEast" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.EnvelopeFilterDao">
+      <Item value="FindEnvelopeFilterByUser" priority="1" />
+      <Item value="Update" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.EnvelopeFilterDetail">
+      <Item value="Coated" priority="1" />
+      <Item value="FlatSheet" priority="1" />
+      <Item value="Flexo" priority="1" />
+      <Item value="Jet" priority="1" />
+      <Item value="JetFlexo" priority="1" />
+      <Item value="Jetfour" priority="1" />
+      <Item value="MaxQuantity" priority="1" />
+      <Item value="MinQuantity" priority="1" />
+      <Item value="Uncoated" priority="1" />
+      <Item value="UserID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.EnvelopeFilter">
+      <Item value="Coated" priority="3" />
+      <Item value="FlatSheet" priority="5" />
+      <Item value="JetFlexo" priority="4" />
+      <Item value="Jetfour" priority="3" />
+      <Item value="MaxQuantity" priority="2" />
+      <Item value="MinQuantity" priority="2" />
+      <Item value="Uncoated" priority="3" />
+      <Item value="UserID" priority="1" />
+      <Item value="Flexo" priority="2" />
+      <Item value="Jet" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.CutsheetFilterDao">
+      <Item value="FindCuthsetFilterByLogin" priority="0" />
+      <Item value="FindCuthsetFilterByUser" priority="0" />
+      <Item value="Update" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.FanfoldFilterDao">
+      <Item value="FindFanfoldFilter" priority="0" />
+      <Item value="Update" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.FanFoldFilterDetail">
+      <Item value="UserID" priority="1" />
+      <Item value="Coated" priority="1" />
+      <Item value="Uncoated" priority="1" />
+      <Item value="MaxBackColors" priority="1" />
+      <Item value="MaxFormQuantity" priority="1" />
+      <Item value="MaxFormSize" priority="1" />
+      <Item value="MaxFrontColors" priority="1" />
+      <Item value="MinFormQuantity" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.FanFoldFilter">
+      <Item value="Coated" priority="4" />
+      <Item value="UserID" priority="2" />
+      <Item value="Uncoated" priority="2" />
+      <Item value="MaxBackColors" priority="2" />
+      <Item value="MaxFormQuantity" priority="2" />
+      <Item value="MaxFormSize" priority="2" />
+      <Item value="MaxFrontColors" priority="2" />
+      <Item value="MinFormQuantity" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.RollToRollDao">
+      <Item value="FindRollToRollFilter" priority="1" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.BookletFilterDao">
+      <Item value="Add" priority="1" />
+      <Item value="FindBookletFilter" priority="0" />
+      <Item value="Update" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.BookletFilterDetail">
+      <Item value="UserId" priority="1" />
+      <Item value="MinQuantity" priority="2" />
+      <Item value="MaxQuantity" priority="1" />
+      <Item value="FourColor" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.BookletFilter">
+      <Item value="UserId" priority="2" />
+      <Item value="MinQuantity" priority="2" />
+      <Item value="MaxQuantity" priority="2" />
+      <Item value="FourColor" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System">
+      <Item value="Data" priority="7" />
+      <Item value="IO" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.LabelFilterDao">
+      <Item value="FindLabelFilter" priority="1" />
+      <Item value="Update" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.LabelFilterDetail">
+      <Item value="UserID" priority="1" />
+      <Item value="MinQuantity" priority="1" />
+      <Item value="MaxQuantity" priority="2" />
+      <Item value="Estatic" priority="1" />
+      <Item value="Fanfold" priority="1" />
+      <Item value="Permanant" priority="1" />
+      <Item value="Removable" priority="1" />
+      <Item value="Rolls" priority="1" />
+      <Item value="Sheets" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.LabelFilter">
+      <Item value="UserID" priority="2" />
+      <Item value="MinQuantity" priority="2" />
+      <Item value="MaxQuantity" priority="1" />
+      <Item value="Estatic" priority="2" />
+      <Item value="Fanfold" priority="3" />
+      <Item value="Permanant" priority="3" />
+      <Item value="Removable" priority="3" />
+      <Item value="Rolls" priority="3" />
+      <Item value="Sheets" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.FlexPricingBid">
+      <Item value="PricingID" priority="2" />
+      <Item value="Service" priority="2" />
+      <Item value="Quantity" priority="1" />
+      <Item value="Price" priority="2" />
+      <Item value="UnitID" priority="2" />
+      <Item value="AgainstPriceIndex" priority="1" />
+      <Item value="Award" priority="1" />
+      <Item value="BidID" priority="2" />
+      <Item value="CompanyID" priority="0" />
+      <Item value="ComponentID" priority="0" />
+      <Item value="JobID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.BidFlexDao">
+      <Item value="GetById" priority="2" />
+      <Item value="Update" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.BidRequestFlexDao">
+      <Item value="GetBidRequestFlexById" priority="1" />
+      <Item value="GetQuantities" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.BidFlex">
+      <Item value="CompanyID" priority="1" />
+      <Item value="JobID" priority="1" />
+      <Item value="ComponentID" priority="1" />
+      <Item value="Award" priority="1" />
+      <Item value="BidRequest" priority="0" />
+      <Item value="BidRequestFlex" priority="7" />
+      <Item value="BidID" priority="1" />
+      <Item value="BidInfoDetails" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.BidRequestFlex">
+      <Item value="Quantities" priority="3" />
+      <Item value="BidReqName" priority="1" />
+      <Item value="BidReqNumber" priority="0" />
+      <Item value="Type" priority="0" />
+      <Item value="JobName" priority="0" />
+      <Item value="Client" priority="1" />
+      <Item value="BidDueDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.FlexPricingBidDao">
+      <Item value="GetFlexPricingBid" priority="2" />
+      <Item value="AddAll" priority="0" />
+      <Item value="DeleteAll" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.IDataItemContainer">
+      <Item value="ToString" priority="0" />
+      <Item value="DataItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRowEventArgs">
+      <Item value="Row" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterCommandEventArgs">
+      <Item value="Item" priority="4" />
+      <Item value="CommandName" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItem">
+      <Item value="FindControl" priority="0" />
+      <Item value="BindingContainer" priority="1" />
+      <Item value="DataItem" priority="0" />
+      <Item value="ItemIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TValue">
+      <Item value="Add" priority="0" />
+      <Item value="Remove" priority="1" />
+      <Item value="Find" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Runtime.Serialization.SerializationInfo">
+      <Item value="AddValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Repeater">
+      <Item value="DataSource" priority="0" />
+      <Item value="Items" priority="3" />
+      <Item value="HeaderTemplate" priority="0" />
+      <Item value="ItemTemplate" priority="1" />
+      <Item value="Focus" priority="1" />
+      <Item value="FooterTemplate" priority="1" />
+      <Item value="FindControl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary&lt;int,System.Collections.Generic.List&lt;b2pLib.Domain.FlexPricingBid&gt;&gt;">
+      <Item value="Add" priority="2" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;b2pLib.Domain.FlexPricingBid&gt;">
+      <Item value="Add" priority="0" />
+      <Item value="RemoveAll" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ITemplate">
+      <Item value="Equals" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.BidFlexService">
+      <Item value="UpdateBidInfo" priority="0" />
+      <Item value="GetBidFlex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FormViewUpdateEventArgs">
+      <Item value="NewValues" priority="7" />
+      <Item value="OldValues" priority="0" />
+      <Item value="Keys" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Collections">
+      <Item value="Generic" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Collections.Generic">
+      <Item value="Dictionary" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair&lt;int,System.Collections.Generic.List&lt;b2pLib.Domain.FlexPricingBid&gt;&gt;">
+      <Item value="Key" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.BidRequestFlexService">
+      <Item value="GetQuantities" priority="0" />
+      <Item value="GetBidRequestFlexById" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.SalesRep">
+      <Item value="CompanyID" priority="1" />
+      <Item value="Email" priority="1" />
+      <Item value="Name" priority="1" />
+      <Item value="SalesRepID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewCommandEventArgs">
+      <Item value="CommandArgument" priority="5" />
+      <Item value="CommandName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ObjectDataSourceMethodEventArgs">
+      <Item value="InputParameters" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ParameterCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewDeleteEventArgs">
+      <Item value="Values" priority="0" />
+      <Item value="RowIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FormViewCommandEventArgs">
+      <Item value="CommandName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime.Now">
+      <Item value="Millisecond" priority="0" />
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.EnvelopeFilterService">
+      <Item value="GetEnvelopeFilter" priority="1" />
+      <Item value="AddEmptyEnvelopeFilter" priority="0" />
+      <Item value="UpdateEnvelopeFilter" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SupplierFilter">
+      <Item value="EnableEventValidation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@b2pLib.Domain">
+      <Item value="SupplierFilter" priority="0" />
+      <Item value="SupplierFilterDetail" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.SupplierFilterService">
+      <Item value="UpdateSupplierFilter" priority="0" />
+      <Item value="GetSupplierFilter" priority="0" />
+      <Item value="UpdateSupplierFilterOriginal" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.CutsheetFilterService">
+      <Item value="GetCuthsetFilter" priority="0" />
+      <Item value="AddEmptyCutsheetFilter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.CutsheetFilter">
+      <Item value="UserID" priority="0" />
+      <Item value="MinQuantity" priority="0" />
+      <Item value="MaxQuantity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.FanfoldFilterService">
+      <Item value="GetFanfolfFilterDetail" priority="0" />
+      <Item value="GetFanfoldFilter" priority="0" />
+      <Item value="AddEmptyFanfoldFilter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.RollToRollFilter">
+      <Item value="UserID" priority="0" />
+      <Item value="Coated" priority="0" />
+      <Item value="MaxBackColors" priority="0" />
+      <Item value="MaxFormQuantity" priority="0" />
+      <Item value="MaxFormSize" priority="0" />
+      <Item value="MaxFrontColors" priority="0" />
+      <Item value="MinFormQuantity" priority="0" />
+      <Item value="Uncoated" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.RollToRollFilterService">
+      <Item value="GetRollToRollFilter" priority="0" />
+      <Item value="AddEmptyRollToRollFilter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.BookletFilterService">
+      <Item value="GetBookletFilter" priority="0" />
+      <Item value="AddEmptyBookletFilter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.LabelFilterService">
+      <Item value="GetLabelFilter" priority="0" />
+      <Item value="AddEmptyLabelFilter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Security.SupportRoleProvider">
+      <Item value="IsUserInRole" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Login">
+      <Item value="UserName" priority="0" />
+      <Item value="Password" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.DistributionListDao">
+      <Item value="findAllActiveDistributionLists" priority="0" />
+      <Item value="findOneDistributionList" priority="0" />
+      <Item value="RemoveSupplier" priority="1" />
+      <Item value="Update" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Domain.DistributionList">
+      <Item value="Details" priority="1" />
+      <Item value="Inactive" priority="1" />
+      <Item value="SSId" priority="0" />
+      <Item value="CompanyID" priority="0" />
+      <Item value="SSName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dao.DistributionListDetailDao">
+      <Item value="findDistributionListDetails" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string[]">
+      <Item value="GetUpperBound" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.Business.DistributionListService">
+      <Item value="RemoveSuppliers" priority="0" />
+      <Item value="GetOneDistributionList" priority="0" />
+      <Item value="AddDistList" priority="0" />
+      <Item value="AddEmptyDistList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
+      <Item value="ConnectionString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@b2pLib.dsa.Reports">
+      <Item value="AllBIdsDataTable" priority="0" />
+      <Item value="rptAverageBidsperBRDataTable" priority="0" />
+      <Item value="DataTableApprovedUsersDataTable" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dsa.ReportsTableAdapters.AllBIdsTableAdapter">
+      <Item value="GetData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@b2pLib.dsa">
+      <Item value="ReportsTableAdapters" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.ReportsTableAdapters.rptAverageBidsperBRTableAdapter">
+      <Item value="GetHashCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:b2pLib.dsa.ReportsTableAdapters.DataTableApprovedUsersTableAdapter">
+      <Item value="GetApprovedUsers" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;int&gt;">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItemEventArgs">
+      <Item value="Item" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DataControlFieldCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.LinkButton">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="string" priority="10" />
+      <Item value="switch" priority="3" />
+      <Item value="strPlusCover" priority="3" />
+      <Item value="default" priority="3" />
+      <Item value="break" priority="10" />
+      <Item value="booklet" priority="0" />
+      <Item value="envelope" priority="0" />
+      <Item value="strWindowType" priority="5" />
+      <Item value="case" priority="10" />
+      <Item value="bidGenerals" priority="2" />
+      <Item value="strCoated" priority="1" />
+      <Item value="ExtendedProperty" priority="4" />
+      <Item value="new" priority="12" />
+      <Item value="else" priority="3" />
+      <Item value="private" priority="4" />
+      <Item value="cont" priority="0" />
+      <Item value="String" priority="0" />
+      <Item value="public" priority="4" />
+      <Item value="static" priority="1" />
+      <Item value="IDbConnection" priority="1" />
+      <Item value="List" priority="0" />
+      <Item value="List&lt;IDbConnection&gt;" priority="0" />
+      <Item value="if" priority="10" />
+      <Item value="null" priority="5" />
+      <Item value="conn" priority="1" />
+      <Item value="connectionPool" priority="1" />
+      <Item value="reader" priority="0" />
+      <Item value="Stopwatch" priority="1" />
+      <Item value="timer" priority="5" />
+      <Item value="using" priority="3" />
+      <Item value="System" priority="0" />
+      <Item value="Linq.Expressions" priority="0" />
+      <Item value="e" priority="6" />
+      <Item value="Eval" priority="0" />
+      <Item value="NoSettingsVersionUpgradeAttribute" priority="0" />
+      <Item value="ApplicationSettingsGroup" priority="1" />
+      <Item value="Response" priority="3" />
+      <Item value="RepeaterDetails_OnItemCommand" priority="0" />
+      <Item value="detailRepeater" priority="2" />
+      <Item value="GridViewQuantities_OnRowDataBound" priority="0" />
+      <Item value="Request" priority="2" />
+      <Item value="txtName" priority="0" />
+      <Item value="TextBox" priority="6" />
+      <Item value="FormViewBidFlex" priority="0" />
+      <Item value="Recalculate" priority="1" />
+      <Item value="fromPage" priority="1" />
+      <Item value="CaseInsensitiveComparer" priority="1" />
+      <Item value="return" priority="6" />
+      <Item value="bool" priority="1" />
+      <Item value="Person" priority="1" />
+      <Item value="PersonDao" priority="3" />
+      <Item value="personDao" priority="1" />
+      <Item value="person" priority="1" />
+      <Item value="Table" priority="0" />
+      <Item value="FormView" priority="0" />
+      <Item value="FormViewPersonProfile" priority="9" />
+      <Item value="DropDownList" priority="1" />
+      <Item value="dropCompany" priority="0" />
+      <Item value="tableCompany" priority="0" />
+      <Item value="true" priority="2" />
+      <Item value="false" priority="2" />
+      <Item value="txtNewCompany" priority="1" />
+      <Item value="DateTimeOffset" priority="0" />
+      <Item value="DateTime" priority="2" />
+      <Item value="IsReadOnly" priority="0" />
+      <Item value="txtTitle" priority="0" />
+      <Item value="txtFax" priority="0" />
+      <Item value="txtExt" priority="0" />
+      <Item value="txtCountry" priority="0" />
+      <Item value="b2pLib" priority="2" />
+      <Item value="Business" priority="0" />
+      <Item value="dao" priority="0" />
+      <Item value="Domain" priority="0" />
+      <Item value="CompanyService" priority="1" />
+      <Item value="Company" priority="3" />
+      <Item value="newCompany" priority="37" />
+      <Item value="txtBCLastName" priority="0" />
+      <Item value="txtBCPhone" priority="0" />
+      <Item value="txtBCEmail" priority="0" />
+      <Item value="service" priority="1" />
+      <Item value="CompanyDao" priority="1" />
+      <Item value="companyDao" priority="0" />
+      <Item value="company" priority="0" />
+      <Item value="newUser" priority="1" />
+      <Item value="SupplierFilterDao" priority="1" />
+      <Item value="SupplierFilter" priority="2" />
+      <Item value="filterDao" priority="0" />
+      <Item value="filter" priority="20" />
+      <Item value="username" priority="0" />
+      <Item value="PersonService" priority="1" />
+      <Item value="args" priority="0" />
+      <Item value="PageTheme" priority="0" />
+      <Item value="Page" priority="8" />
+      <Item value="CheckBoxField" priority="0" />
+      <Item value="formViewPerson" priority="0" />
+      <Item value="CheckBox" priority="1" />
+      <Item value="chkTAC" priority="1" />
+      <Item value="WindowsAuthenticationEventHandler" priority="1" />
+      <Item value="Server" priority="0" />
+      <Item value="Control" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToLower" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="0" />
+      <Item value="RemoveAt" priority="0" />
+      <Item value="Add" priority="0" />
+      <Item value="Remove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Stopwatch">
+      <Item value="Start" priority="1" />
+      <Item value="Stop" priority="1" />
+      <Item value="ElapsedMilliseconds" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Table">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Today" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ServerValidateEventArgs">
+      <Item value="Value" priority="0" />
+      <Item value="IsValid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlForm">
+      <Item value="Controls" priority="0" />
+      <Item value="FindControl" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <EditorManager>
+    <RecentFiles>
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/f:App.config" caret="152" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dsa/f:Reports.xsd" caret="4086" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dsa/f:Reports.Designer.cs" caret="97651" scrollPosition="0|1913" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Properties/f:Settings.settings" caret="273" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Properties/f:Settings.Designer.cs" caret="1626" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/d:DummyGlobalAsax/f:Global.asax" caret="280" scrollPosition="15|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:BidRequest.aspx" caret="8649" scrollPosition="0|130" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dao/f:DistributionListDao.cs" caret="1328" scrollPosition="0|1" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dao/f:GenericDao.cs" caret="16935" scrollPosition="0|355" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/f:Utils.cs" caret="1692" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:CreateBid.aspx.cs" caret="1085" scrollPosition="0|15" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:CreateBidFlex.aspx.cs" caret="1166" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminCompanyProfile.aspx" caret="0" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dsa/f:Reports.cs" caret="137" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminRptApprovedUsersInfo.aspx.cs" caret="884" scrollPosition="0|1" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dao/f:CompanyDao.cs" caret="1538" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:CompanyService.cs" caret="1687" scrollPosition="0|49" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminCompanyProfile.aspx.cs" caret="2216" scrollPosition="0|47" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidFlexService.cs" caret="941" scrollPosition="0|9" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:CreateBidFlex.aspx" caret="0" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:CreateBid.aspx" caret="0" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:style.css" caret="0" scrollPosition="15|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminRptAverageBidsPerBR.aspx" caret="0" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:rptAverageBidsPerBR.aspx.cs" caret="841" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:rptAverageBidsPerBR.aspx" caret="542" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminRptAverageBidsPerBR.aspx.cs" caret="820" scrollPosition="0|10" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/d:App_Code/f:web.config" caret="12738" scrollPosition="0|324" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminHome.aspx" caret="164" scrollPosition="104|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminRptApprovedUsersInfo.aspx" caret="395" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:rptApprovedUsers.aspx" caret="630" scrollPosition="0|0" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+  </ReFormatCode>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminContact.aspx" caret="0" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:AwardFlexPricingService.cs" caret="0" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Domain/f:BookletFilter.cs" caret="436" scrollPosition="0|9" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Domain/f:Bid.cs" caret="0" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Domain/f:BidRequest.cs" caret="0" scrollPosition="0|9" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:UserRegistrationForm.aspx.cs" caret="5629" scrollPosition="0|103" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:CreateBid.aspx" caret="0" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/f:Utils.cs" caret="1702" scrollPosition="0|21" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidService.cs" caret="659" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dao/f:GenericDao.cs" caret="10364" scrollPosition="0|226" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Domain/f:BidInfo.cs" caret="508" scrollPosition="0|18" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidFlexService.cs" caret="3261" scrollPosition="0|34" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:CreateBid.aspx.cs" caret="9933" scrollPosition="0|147" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dao/f:FlexPricingBidDao.cs" caret="702" scrollPosition="0|6" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Domain/f:FlexPricingBid.cs" caret="121" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Domain/f:BidFlex.cs" caret="149" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dao/f:BidRequestDao.cs" caret="13110" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:UserRegistrationForm.aspx" caret="0" scrollPosition="0|9" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Domain/f:Person.cs" caret="1711" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:PersonService.cs" caret="2254" scrollPosition="0|48" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dao/f:PersonDao.cs" caret="99" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dao/f:SupplierFilterDao.cs" caret="204" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestService.cs" caret="777" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/d:App_Code/f:web.config" caret="21" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dao/f:GeneralBidRequestPropsDao.cs" caret="1479" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Domain/f:ExtendedProperty.cs" caret="150" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:BidRequest.aspx" caret="0" scrollPosition="0|0" />
+      <File id="d:Miscellaneous Files/f:GenericDao.cs" caret="6491" scrollPosition="0|79" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Domain/f:GeneralBidRequestProps.cs" caret="1300" scrollPosition="0|22" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="12531" scrollPosition="0|209" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="33563" scrollPosition="43|287" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="7115" scrollPosition="48|121" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="16336" scrollPosition="48|250" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="44594" scrollPosition="48|653" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/d:App_Code/f:web.config" caret="469" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="39956" scrollPosition="0|609" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="36072" scrollPosition="0|548" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:UserRegistrationForm.aspx.cs" caret="5720" scrollPosition="0|94" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminHome.aspx.cs" caret="2752" scrollPosition="0|29" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminHome.aspx.cs" caret="3031" scrollPosition="0|29" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminUserProfile.aspx.cs" caret="4912" scrollPosition="0|75" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminUserProfile.aspx.cs" caret="5191" scrollPosition="0|75" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:privacy.aspx" caret="12311" scrollPosition="0|138" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:privacy.aspx" caret="13332" scrollPosition="0|154" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:privacy.aspx" caret="11043" scrollPosition="0|119" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:index.aspx" caret="3095" scrollPosition="0|31" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:Contact.aspx" caret="1332" scrollPosition="0|0" />
+      <File id="CB5335F3-6895-4B3F-AD87-4AA79AA23B0D/f:AdminContact.aspx" caret="1058" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Domain/f:GeneralBidRequestProps.cs" caret="1327" scrollPosition="0|24" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Domain/f:GeneralBidRequestProps.cs" caret="8108" scrollPosition="0|240" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:dao/f:GeneralBidRequestPropsDao.cs" caret="749" scrollPosition="0|0" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="18960" scrollPosition="0|268" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="47281" scrollPosition="0|683" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="9884" scrollPosition="0|139" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="37063" scrollPosition="0|557" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="18525" scrollPosition="0|287" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="46848" scrollPosition="0|694" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="9451" scrollPosition="0|166" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="28588" scrollPosition="0|435" />
+      <File id="4C65EAFD-AF1C-478B-B2F4-D6825A529EE3/d:Business/f:BidRequestDetailService.cs" caret="36629" scrollPosition="0|554" />
+    </RecentEdits>
+  </RecentFiles>
+</Configuration>
